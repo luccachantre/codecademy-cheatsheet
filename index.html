@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>CSS Display options</h1>
+    <p>
+      The display property sets an elements inner and outer display types. Inner
+      refers to any child elements inside the element, and outer refers to the
+      element itself,more specifically its participation in flow layout
+    </p>
+    <h2>Outside</h2>
+    <p>
+      These keywords specify the element's outer display type, which is
+      essentially its role in flow layout
+    </p>
+    <ul>
+      <li>
+        <h3>Block</h3>
+        <p>
+          This generates a block box around the element, and creates line breaks
+          before and after the element (when its in the normal flow)
+        </p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>
+          This generates one or more inline boxes that do not generate line
+          breaks before or after themselves. In normal flow, the next element
+          will be on the same line if there is space
+        </p>
+      </li>
+    </ul>
+    <h2>Inside</h2>
+    <p>
+      These keywords specify the elements inner display type, which defines the
+      type of formatting context that its content (its children) will be laid
+      out in (assuming it is a non-replaced element (dont know what that
+      means)). When one of these keywords is used by itself as a single value
+      (ex. 'display: flex' as opposed to 'display: block flex'), the element's
+      outer display type defaults to block (with the exception of ruby, which
+      defaults to inline).
+    </p>
+    <ul>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+      <li>
+        <h3>Inline</h3>
+        <p>wonder what this will look like</p>
+      </li>
+    </ul>
+  </body>
+</html>

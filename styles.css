@@ -7,4 +7,22 @@ h1 {
     color: white;
     background-color: teal;
     text-align: center;
+    font-family: "Alan Sans", sans-serif;
+}
+
+p {
+    font-family: "Source Serif 4", serif;
+    font-weight: 600;
+}
+
+.article {
+    background-color: lightsalmon;
+}
+
+span {
+    font-family: monospace;
+    padding: 0px 2px;
+    color: white;
+    background-color: mediumpurple;
+    border-radius: 2px;
 }

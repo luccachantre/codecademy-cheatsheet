@@ -14,15 +14,16 @@
   </head>
   <body>
     <h1>CSS Display options</h1>
-    <p>
+    <p class="subtitle">
       The display property sets an elements inner and outer display types. Inner
       refers to any child elements inside the element, and outer refers to the
       element itself,more specifically its participation in flow layout
     </p>
-    <aside>
+    <aside class="note">
       Note: these are not all of the possible display values, just the main
       ones. check my credits/links at the bottom to learn more about display!
     </aside>
+    <div class="separator-bar"></div>
     <div>
       <h2>What is display?</h2>
       <p>
@@ -45,49 +46,58 @@
         essentially its role in flow layout
       </p>
       <ul>
-        <li>
-          <h3>block</h3>
-          <p>
-            This generates a block box around the element, and creates line
-            breaks before and after the element (when its in the normal flow)
-          </p>
-        </li>
-        <li>
-          <h3>inline</h3>
-          <p>
-            This generates one or more inline boxes that do not generate line
-            breaks before or after themselves. In normal flow, the next element
-            will be on the same line if there is space. (see my description near
-            the title for more detail). They only take up as much space as is
-            needed based on the length of the text or whatever, width and height
-            cannot be applied to change the width/height of inline elements
-          </p>
-        </li>
-        <li>
-          <h3>inline-block</h3>
-          <p>
-            This generates an inline box that does not create newlines before or
-            after, but unlike inline elements, width and height can be applied
-            to inline-block elements
-          </p>
-        </li>
-        <li>
-          <h3>none</h3>
-          <p>
-            This removes the element entirely from the layout/flow. You cant see
-            it, it doesnt take up any space, and the elements next get moved to
-            fill in its space. It's as if the html for the element isnt even
-            there.
-          </p>
-          <p>
-            Now lets compare this to another css property and value ->
-            <span>visibility: hidden</span>. this removes the elements content
-            but keeps the space it occupies in the layout/flow. So its like
-            writing a paragraph on paper and simply erasing a sentence. The
-            sentence is gone but the space it occupied is still there. Does that
-            make sense?
-          </p>
-        </li>
+        <div class="block">
+          <li>
+            <h3>block</h3>
+            <p>
+              This generates a block box around the element, and creates line
+              breaks before and after the element (when its in the normal flow)
+            </p>
+          </li>
+        </div>
+        <div class="block">
+          <li>
+            <h3>inline</h3>
+            <p>
+              This generates one or more inline boxes that do not generate line
+              breaks before or after themselves. In normal flow, the next
+              element will be on the same line if there is space. (see my
+              description near the title for more detail). They only take up as
+              much space as is needed based on the length of the text or
+              whatever, width and height cannot be applied to change the
+              width/height of inline elements
+            </p>
+          </li>
+        </div>
+        <div class="block">
+          <li>
+            <h3>inline-block</h3>
+            <p>
+              This generates an inline box that does not create newlines before
+              or after, but unlike inline elements, width and height can be
+              applied to inline-block elements
+            </p>
+          </li>
+        </div>
+        <div class="block">
+          <li>
+            <h3>none</h3>
+            <p>
+              This removes the element entirely from the layout/flow. You cant
+              see it, it doesnt take up any space, and the elements next get
+              moved to fill in its space. It's as if the html for the element
+              isnt even there.
+            </p>
+            <p>
+              Now lets compare this to another css property and value ->
+              <span>visibility: hidden</span>. this removes the elements content
+              but keeps the space it occupies in the layout/flow. So its like
+              writing a paragraph on paper and simply erasing a sentence. The
+              sentence is gone but the space it occupied is still there. Does
+              that make sense?
+            </p>
+          </li>
+        </div>
       </ul>
     </div>
     <div class="article">

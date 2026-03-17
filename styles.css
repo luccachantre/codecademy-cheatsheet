@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #2b2e38;
     color: white;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 h1 {
@@ -33,13 +34,14 @@ h3 {
 }
 
 p {
-    font-family: "Source Serif 4", serif;
-    font-weight: 600;
+    font-family: "Kumbh Sans", sans-serif;
+    /* font-weight: 600; */
     /* background: wheat; */
     margin: 0;
 }
 
 .article {
+    margin: 40px;
 }
 
 span {
@@ -63,4 +65,25 @@ ul {
     height: 300px;
     border-radius: 20px;
     text-align: center;
+}
+
+a:link {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkseagreen;
+}
+
+a:visited {
+    color: plum;
+}
+
+h4 {
+    margin: 40px;
 }

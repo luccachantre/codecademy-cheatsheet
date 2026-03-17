@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
+    <title>CSS Display Cheatsheet</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,13 +13,13 @@
     />
   </head>
   <body>
-    <h1>CSS Display options</h1>
-    <p class="subtitle">
+    <h1>CSS Display Options</h1>
+    <p class="sub" id="subtitle">
       The display property sets an elements inner and outer display types. Inner
       refers to any child elements inside the element, and outer refers to the
-      element itself,more specifically its participation in flow layout
+      element itself, more specifically its participation in flow layout
     </p>
-    <aside class="note">
+    <aside class="sub" id="note">
       Note: these are not all of the possible display values, just the main
       ones. check my credits/links at the bottom to learn more about display!
     </aside>
@@ -39,6 +39,7 @@
       </p>
       <p>also, width and height do not apply to inline elements</p>
     </div>
+    <div class="separator-bar"></div>
     <div class="article">
       <h2>Outside</h2>
       <p>
@@ -100,6 +101,7 @@
         </div>
       </ul>
     </div>
+    <div class="separator-bar"></div>
     <div class="article">
       <h2>Inside</h2>
       <p>
@@ -151,6 +153,35 @@
         </div>
       </ul>
     </div>
+    <div class="separator-bar"></div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Inside/Outside</th>
+        <th>Line Breaks?</th>
+      </tr>
+      <tr>
+        <td><span>block</span></td>
+        <td>Outside</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td><span>inline</span></td>
+        <td>Outside</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><span>inline-block</span></td>
+        <td>Outside</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><span>flex</span></td>
+        <td>Inside</td>
+        <td>Yes</td>
+      </tr>
+    </table>
+    <div class="separator-bar"></div>
     <h4>
       Credit: I got my information and learned from
       <a
@@ -164,5 +195,13 @@
         >4 minute youtube video explaining display basics</a
       >
     </h4>
+    <div class="signoff">
+      <p>Lucca Chantre</p>
+      <p>luccachantre@gmail.com</p>
+      <a href="https://www.linkedin.com/in/lucca-chantre/" target="_blank"
+        >Linkedin</a
+      >
+      <a href="https://github.com/luccachantre" target="_blank">Github</a>
+    </div>
   </body>
 </html>

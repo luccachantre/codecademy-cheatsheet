@@ -12,9 +12,13 @@ h1 {
     font-family: "Alan Sans", sans-serif;
 }
 
-.subtitle, .note{
+.sub{
     text-align: center;
     margin: 10px;
+}
+
+#subtitle {
+    font-size: 20px;
 }
 
 .separator-bar {
@@ -65,6 +69,16 @@ ul {
     height: 300px;
     border-radius: 20px;
     text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.block p {
+    margin: 10px;
+}
+
+.block:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgba(82, 255, 189, 0.7);
 }
 
 a:link {
@@ -86,4 +100,28 @@ a:visited {
 
 h4 {
     margin: 40px;
+}
+
+.signoff {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signoff p {
+    margin: 5px;
+}
+
+.signoff a {
+    margin: 5px;
+}
+
+table, th, td{
+    border: 1px solid rgba(82, 255, 189, 1);
+    border-collapse: collapse;
+    margin: auto auto;
+}
+
+th, td {
+    padding: 10px;
 }
